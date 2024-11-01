@@ -1,5 +1,8 @@
-﻿namespace Entidade
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Entidade
 {
+    [Table("Estudantes")]
     public class Estudante
     {
         public string Nome { get; set; }
